@@ -3,6 +3,7 @@ import Portal from "../Portal";
 import { CSSTransition } from "react-transition-group";
 
 const ModalBase = ({ visible, onClose, children, bodyClassName = "" }) => {
+  console.log(children);
   return (
     <Fragment>
       <CSSTransition in={visible} timeout={250} unmountOnExit classNames="zoom">

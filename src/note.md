@@ -186,3 +186,10 @@ Action type, Action Creator
 - Đặt tên name trùng với key trong obj khi sử dụng hook useState
 - value = obj hook đã set State.
 - Lưu ý khi setForm thì phải copy dữ liệu từ state form
+
+## JWT/Authentication
+
+- auth/register POST
+- auth/login POST
+- Permission
+- authentication (chứng thực)/authorization (ủy quyền)
